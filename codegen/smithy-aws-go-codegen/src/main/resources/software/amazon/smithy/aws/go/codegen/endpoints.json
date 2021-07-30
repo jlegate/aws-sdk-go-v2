@@ -9841,6 +9841,24 @@
           }
         }
       },
+      "network-firewall" : {
+        "endpoints" : {
+          "fips-us-gov-east-1" : {
+            "credentialScope" : {
+              "region" : "us-gov-east-1"
+            },
+            "hostname" : "network-firewall-fips.us-gov-east-1.amazonaws.com"
+          },
+          "fips-us-gov-west-1" : {
+            "credentialScope" : {
+              "region" : "us-gov-west-1"
+            },
+            "hostname" : "network-firewall-fips.us-gov-west-1.amazonaws.com"
+          },
+          "us-gov-east-1" : { },
+          "us-gov-west-1" : { }
+        }
+      },
       "organizations" : {
         "endpoints" : {
           "aws-us-gov-global" : {
